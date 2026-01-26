@@ -1,0 +1,17 @@
+body
+    {
+        margin: 0;
+        background-color: rgb(34, 34, 34);
+        color:rgb(255, 255, 255);
+        font-family: "adobe-caslon-pro-light", serif;
+        font-weight: 100;
+    }
+
+.greybox
+    {
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        background-color: rgb(101, 101, 101);
+        margin: 0px;
+        padding: 1% 2%;
+    }

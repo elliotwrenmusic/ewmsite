@@ -1,0 +1,38 @@
+.title
+    {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+.evidence
+    {
+        padding-top: 3%;
+        padding-right: 30%;
+        text-align:center;
+    }
+
+h2
+    {
+        text-transform: capitalize;
+        letter-spacing: 10px;
+        line-height: 170%;
+    }
+
+p
+    {
+        font-weight: lighter;
+        line-height: 170%;
+    }
+
+.backbuttonphoto:hover
+    {
+        opacity: 50%;
+    }
+
+.player
+    {
+        display: flex;
+        justify-content: right;
+    }
