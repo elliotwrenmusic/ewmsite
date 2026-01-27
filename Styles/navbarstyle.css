@@ -14,12 +14,12 @@
 .navbar ul li
     {
         display: inline-block;
+        position: relative;
     }
 
 .navbar ul li a
     {
         display: block;
-        position: absolute;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 50px;
