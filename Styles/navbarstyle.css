@@ -1,4 +1,4 @@
-*
+    *
     {
         padding: 0;
         margin: 0;
@@ -14,7 +14,7 @@
 .navbar ul li
     {
         display: inline-block;
-        position: relative;
+        position: absolute;
     }
 
 .navbar ul li a
