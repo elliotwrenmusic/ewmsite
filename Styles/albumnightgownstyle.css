@@ -37,26 +37,6 @@ h2
         background-color: rgb(187, 187, 187);
     }
 
-.photogrid
-    {
-        padding-left: 30%;
-        padding-right: 30%;
-        display: inline;
-        justify-self: center;
-    }
-
-.photogrid ul
-    {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-    }
-
-.photogrid img
-    {
-        width: 90%;
-    }
-
 .photogrid a:hover
     {
         opacity: 50%;
