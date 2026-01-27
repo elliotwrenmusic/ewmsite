@@ -28,8 +28,3 @@ body
         justify-content: center;
         list-style: none;
     }
-
-.photogrid img
-    {
-        width: 90%;
-    }
