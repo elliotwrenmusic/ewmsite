@@ -45,5 +45,14 @@ body
         opacity: 50%;
     }
 
+.photogrid li:hover .caption
+    {
+        display: block;
+    }
+
+.photogrid li caption
+    {
+        display: none;
+    }
 
 
