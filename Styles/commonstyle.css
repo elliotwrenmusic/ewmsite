@@ -35,6 +35,9 @@ body
         width: 100%;
     }
 
-
+.photogrid img:hover
+    {
+        opacity: 50%;
+    }
 
 
