@@ -33,6 +33,7 @@ body
 .photogrid img
     {
         width: 100%;
+        display: block;
     }
 
 .photogrid a:hover
@@ -40,19 +41,5 @@ body
         opacity: 50%;
     }
 
-.photogrid li:hover
-    {
-        opacity: 50%;
-    }
-
-.photogrid li:hover .caption
-    {
-        display: block;
-    }
-
-.photogrid li caption
-    {
-        display: none;
-    }
 
 
