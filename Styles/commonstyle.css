@@ -19,8 +19,7 @@ body
 
 .photogrid
     {
-        padding-left: 0%;
-        padding-right: 0%;
+        margin:0%;
         justify-content: center;
     }
 
@@ -33,7 +32,8 @@ body
     
 .photogrid img
     {
-        width: 90%;
+        width: 109%;
     }
+
 
 
