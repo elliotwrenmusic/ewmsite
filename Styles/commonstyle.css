@@ -14,10 +14,13 @@ body
         background-color: rgb(101, 101, 101);
         margin: 0px;
         padding: 1% 2%;
+
     }
 
 .photogrid
     {
+        padding-left: 0%;
+        padding-right: 0%;
         display: inline;
         justify-self: center;
     }
