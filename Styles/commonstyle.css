@@ -35,9 +35,15 @@ body
         width: 100%;
     }
 
-.photogrid img:hover
+.photogrid a:hover
     {
         opacity: 50%;
     }
+
+.photogrid li:hover
+    {
+        opacity: 50%;
+    }
+
 
 
