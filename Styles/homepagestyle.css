@@ -53,6 +53,5 @@ h5
 
 .infobox
     {
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
     }
