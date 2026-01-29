@@ -50,3 +50,8 @@ h5
     {
         padding:3% 20%;
     }
+
+.infobox
+    {
+        display: flex;
+    }
