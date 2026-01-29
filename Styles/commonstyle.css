@@ -40,6 +40,10 @@ body
         opacity: 50%;
     }
 
-
-
-
+.statustable
+    {
+        margin:0%;
+        justify-content: center;
+        display: flex;
+        justify-content: center;
+    }
