@@ -45,6 +45,11 @@ h1
         text-align: center;
     }
 
+hr
+    {
+        color: black;
+    }
+
 .container
     {
         position:relative;
