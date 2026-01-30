@@ -40,10 +40,14 @@ body
         opacity: 50%;
     }
 
+.section
+    {
+        text-align: center;
+    }
+
 .container
     {
         position:relative;
-        border:1px solid black;
     }
 
 .text
