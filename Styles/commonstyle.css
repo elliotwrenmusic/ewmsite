@@ -35,11 +35,6 @@ body
         display: block;
     }
 
-.photogrid a:hover
-    {
-        opacity: 50%;
-    }
-
 h1
     {
         text-align: center;
