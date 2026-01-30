@@ -65,28 +65,3 @@ h5
     {
         display: flex;
     }
-.tablestuff
-    {
-        table-layout: fixed;
-        width: 150%;
-        caption-side: bottom;
-    }
-.tablestuff caption
-    {
-        text-align: left;
-        padding: 5%;
-    }
-.tablestuff th
-    {
-        padding: 10px;
-        background-color: rgb(81, 79, 92);
-        text-align: center;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-    }
-.tablestuff td
-    {
-        padding: 10px;
-        background-color: rgb(46, 45, 54);
-        text-align: center;
-    }
