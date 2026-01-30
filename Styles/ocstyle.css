@@ -1,0 +1,55 @@
+html, body 
+    {
+        width:100%;
+        height: 100%;
+    }
+body
+    {
+        box-shadow: inset 0 0 0 10000px rgba(126, 15, 15, 0.562);
+        background: url(../Files/Images/OCs/creedice.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+.secondhalf, .traitscontainer
+    {
+        background-color: rgba(0, 0, 0, 0.637);
+    }
+.secondhalf
+    {
+        padding: 1%;
+    }
+.traitscontainer
+    {
+        margin: 9% 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 33px;
+    }
+.traitstable
+    {
+        padding: 1% 10%;
+        table-layout: fixed;
+        text-align: left;
+        text-transform: capitalize;
+    }
+th,td
+    {
+        padding: 10% 10px;
+        margin: 10px 30px;
+    }
+.moreinfo
+    {
+        padding: 3% 10%;
+        background-color: rgba(0, 0, 0, 0.932);
+        display: flex;
+        justify-content: space-around;
+    }
+h3
+    {
+        padding: 0% 10%;
+    }
+.infoboxes
+    {
+        padding:0% 3%;
+    }
