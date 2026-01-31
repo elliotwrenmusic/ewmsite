@@ -15,6 +15,35 @@
                 {
                     width: 100%;
                 }
+            .buttons
+                {
+                    display: flex;
+                    justify-content: center;
+                }
+            #fullart
+                {
+                    display: none;
+                }
+            #fullart:target
+                {
+                    display: block;
+                }
+            #portraits
+                {
+                    display: none;
+                }
+            #portraits:target
+                {
+                    display:block;
+                }
+            button
+                {
+                    background-color: rgb(101, 101, 101);
+                    color: white;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin: 0px 1%;
+                }
         </style>
     </head>
 
@@ -84,19 +113,12 @@
         <br>
         <br>
 
-        <div class="documents">
-            <ul>
-                <li>
-                    
-                </li>
-                <li>
-                    <button type="button">FULL ART</button>
-                    <button type="button">PORTRAITS</button>
-                </li>
-            </ul>
+        <div class="buttons">
+            <a href="#fullart"><button type="button">FULLART</button></a>
+            <a href="#portraits"><button type="button">PORTRAITS</button></a>
         </div>
 
-        <div class="fullart">
+        <section id="fullart">
             <div class="photogrid">
                 <ul>
                     <li>
@@ -107,9 +129,9 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
 
-        <div class="portraits">
+        <section id="portraits">
             <div class="photogrid">
                 <ul>
                     <li>
@@ -144,7 +166,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
         
     </body>
 </html>
