@@ -15,35 +15,6 @@
                 {
                     width: 100%;
                 }
-            .buttons
-                {
-                    display: flex;
-                    justify-content: center;
-                }
-            #fullart
-                {
-                    display: none;
-                }
-            #fullart:target
-                {
-                    display: block;
-                }
-            #portraits
-                {
-                    display: none;
-                }
-            #portraits:target
-                {
-                    display:block;
-                }
-            button
-                {
-                    background-color: rgb(101, 101, 101);
-                    color: white;
-                    border-radius: 10px;
-                    padding: 10px;
-                    margin: 0px 1%;
-                }
         </style>
     </head>
 
@@ -98,72 +69,49 @@
         <br>
         <br>
 
-        <div class="greybox" style="border-top: 0px solid; border-bottom: 0px solid;">
-            <h2>
-                MY ART
-            </h2>
-            <h2>
-                (IN CHRONOLOGICAL ORDER)
-            </h2>
-        </div>
-
         <br>
         <br>
 
-        <div class="buttons">
-            <a href="#fullart"><button type="button">FULLART</button></a>
-            <a href="#portraits"><button type="button">PORTRAITS</button></a>
+        <div class="photogrid">
+            <ul>
+                <li>
+                    <div class="container">
+                        <img src="../Files/Images/art/elliot.PNG">
+                        <div class="text">self portrait <br> n.d.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="../Files/Images/art/GF.PNG">
+                        <div class="text">portrait of girlfriend <br> October 10 2025</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="../Files/Images/art/Angel.PNG">
+                        <div class="text">"Angel" <br> July 10 2025</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="../Files/Images/art/Kyle.PNG">
+                        <div class="text">"Kyle" <br> March 22 2024 </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="../Files/Images/art/Hollie.PNG">
+                        <div class="text">"Hollie" <br> March 15 2024 </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <img src="../Files/Images/art/Sleepless Night.PNG">
+                        <div class="text">sleepless night <br> October 10 2023</div>
+                    </div>
+                </li>
+            </ul>
         </div>
-
-        <section id="fullart">
-            <div class="photogrid">
-                <ul>
-                    <li>
-                        <div class="container">
-                            <img src="../Files/Images/art/Sleepless Night.PNG">
-                            <div class="text">sleepless night <br> October 10 2023</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="portraits">
-            <div class="photogrid">
-                <ul>
-                    <li>
-                        <div class="container">
-                            <img src="../Files/Images/art/elliot.PNG">
-                            <div class="text">self portrait <br> n.d.</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="container">
-                            <img src="../Files/Images/art/GF.PNG">
-                            <div class="text">portrait of girlfriend <br> October 10 2025</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="container">
-                            <img src="../Files/Images/art/Angel.PNG">
-                            <div class="text">"Angel" <br> July 10 2025</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="container">
-                            <img src="../Files/Images/art/Kyle.PNG">
-                            <div class="text">"Kyle" <br> March 22 2024 </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="container">
-                            <img src="../Files/Images/art/Hollie.PNG">
-                            <div class="text">"Hollie" <br> March 15 2024 </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
         
     </body>
 </html>
