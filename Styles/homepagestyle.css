@@ -26,13 +26,13 @@
 
         .column1
         {
-            width: 85%;
+            width: 100%;
             order: 1;
         }
 
         .column2
         {
-            width: 85%;
+            width: 100%;
             order: -1;
         }
     }   

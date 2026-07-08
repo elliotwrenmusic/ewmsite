@@ -28,6 +28,16 @@ body
         grid-template-columns: repeat(5, 1fr);
         list-style: none;
     }
+
+@media (max-width: 768px)
+    {
+        .photogrid ul
+        {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+        }
+    }   
     
 .photogrid img
     {
