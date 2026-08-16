@@ -38,7 +38,7 @@
 
 .navbar ul li ul.dropdown
     {
-        width: 100%;
+        width: max-content;
         background:rgb(187, 187, 187);
         position: absolute;
         z-index: 999;
